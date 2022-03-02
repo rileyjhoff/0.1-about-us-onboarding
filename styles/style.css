@@ -88,3 +88,31 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+     align-content: center;
+}
+.pronouns{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.favorite_place{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+    
+    
+}
+
+.hobbies_display{
+    padding-left: 10px;
+}
