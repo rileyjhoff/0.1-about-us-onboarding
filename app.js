@@ -28,7 +28,23 @@ const hobbiesEl = document.querySelector('.hobbies');
     // update DOM to reflect the new state
 
 selectEl.addEventListener('change', (event) => {
-    console.log('user click');
+    const selected = event.target.value;
+    hobbiesEl.innerHTML = '';
+    divEl.classList.remove('Cody', 'Riley');
+    
+    if (selected === 'one') {
+    /// we want to render the first users profile on the page. So we call our function.
+
+        renderPerson(0);
+
+    /// this will render the first person on our data array.
+    } else {
+    //// otherwise if the selected is not one we want to show the last person in our array.
+
+        renderPerson(1);
+    }
+
+
 });
 
 function renderPerson(index) {
@@ -43,4 +59,7 @@ function renderPerson(index) {
         hobbiesEl.appendChild(li);
     }
 }
+
+
+
 
