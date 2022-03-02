@@ -20,6 +20,8 @@ const favPlaceEl = document.querySelector('.favorite_place');
 
 const hobbiesEl = document.querySelector('.hobbies');
 
+const hobbiesDisplayEl = document.querySelector('.hobbies_display');
+
 // console.log(favPlaceEl);
 
 // set event listeners 
@@ -52,6 +54,7 @@ function renderPerson(index) {
     nameEl.textContent = 'Name: ' + people[index].name;
     pronounsEl.textContent = 'Pronouns: ' + people[index].pronouns;
     favPlaceEl.textContent = 'Favorite Place: ' + people[index].favorite_place;
+    hobbiesDisplayEl.textContent = 'Hobbies:';
 
     for (let hobby of people[index].hobbies) {
         const li = document.createElement('li');
@@ -59,7 +62,3 @@ function renderPerson(index) {
         hobbiesEl.appendChild(li);
     }
 }
-
-
-
-
