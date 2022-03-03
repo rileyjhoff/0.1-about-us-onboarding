@@ -92,7 +92,7 @@ footer {
 .name{
     font-size: 1.5rem;
     font-weight: bold;
-     align-content: center;
+    align-content: center;
 }
 .pronouns{
     font-size: 1rem;
@@ -115,4 +115,33 @@ footer {
 
 .hobbies_display{
     padding-left: 10px;
+}
+
+.Riley{
+    border: rgb(154, 19, 207) 2px outset;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(59, 209, 214);
+    color: rgb(14, 13, 13);
+    margin: 30px;
+    padding: 0px 30px;
+}
+
+.Riley ul {
+    list-style-type: none;
+}
+
+.Riley .hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 20px;
+    padding: 0;
+    align-items: center;
+}
+.Riley li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 0;
+    align-items: center;
+    color:rgb(154, 19, 207)
 }

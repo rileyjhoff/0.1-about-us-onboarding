@@ -35,22 +35,14 @@ selectEl.addEventListener('change', (event) => {
     divEl.classList.remove('Cody', 'Riley');
     
     if (selected === 'one') {
-    /// we want to render the first users profile on the page. So we call our function.
-
         renderPerson(0);
-
-    /// this will render the first person on our data array.
     } else {
-    //// otherwise if the selected is not one we want to show the last person in our array.
-
         renderPerson(1);
     }
-
-
 });
 
 function renderPerson(index) {
-    divEl.classList.add(`${people[index.name]}`);
+    divEl.classList.add(`${people[index].name}`);
     nameEl.textContent = 'Name: ' + people[index].name;
     pronounsEl.textContent = 'Pronouns: ' + people[index].pronouns;
     favPlaceEl.textContent = 'Favorite Place: ' + people[index].favorite_place;
