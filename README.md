@@ -24,3 +24,24 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## Plan
+
+![App Outline!](/assets/app-outline.png "Our App Outline")
+
+- Create data.js and put array of people with name, pronouns, favorit place and hobbies
+- HTML Elements Needed: Head, Body, Header, Main, Footer, Section, Select, Options, Div, Unordered List, Span, P, H2 and H4, H6
+- Add Selector to Index
+- Add a Div to Index
+- In App.js Import Array From Data.js
+- Validate that we pulled data over correctly
+- Grab all Dom Elements
+- Validate that we grabbed dom elements
+- Add Event Listener to Selector
+- Validate Event Listener
+- Write a function to render people that will change text content depending on option selected
+- Try Calling Render Function
+- In our event listener set selected person to a variable that equals the target value
+- Remove Class From Div Element
+- Create IF Function to Render People base on which index selection
+- Check to make sure each user is rendering
