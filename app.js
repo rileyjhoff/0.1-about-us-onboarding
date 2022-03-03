@@ -48,3 +48,5 @@ function renderPerson(index) {
         hobbiesEl.appendChild(li);
     }
 }
+
+divEl.onload = renderPerson(0);
